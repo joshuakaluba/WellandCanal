@@ -3,7 +3,7 @@
 Source code for WellandCanal status up
 
 ## Installation
-Firstly make sure that the expo cli is installed. If not then run `npm install -g expo-cli` or follow directions from `https://facebook.github.io/react-native/docs/getting-started.html`
+Firstly make sure that the expo cli is installed. If not then run `npm install -g expo-cli` or follow directions from the [React Native Getting Started documentation](https://facebook.github.io/react-native/docs/getting-started.html)
 
 Run `npm install` to install dependancies.
 
