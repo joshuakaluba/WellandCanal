@@ -3,12 +3,12 @@
     "name": "Welland Canal",
     "slug": "WellandCanal",
     "privacy": "unlisted",
-    "sdkVersion": "31.0.0",
+    "sdkVersion": "34.0.0",
     "platforms": [
       "ios",
       "android"
     ],
-    "version": "3.0.0",
+    "version": "5.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "splash": {
@@ -24,14 +24,14 @@
     ],
     "ios": {
       "supportsTablet": false,
-      "bundleIdentifier":"com.example.bundle"
+      "bundleIdentifier": "com.example.bundle"
     },
     "android":{
-      "package":"com.example.bundle",
-      "versionCode": 2,
+      "package": "com.example.bundle",
+      "versionCode": 7,
       "permissions": [
         "VIBRATE"
-      ],  
+      ],
       "config": {
         "googleMaps": {
           "apiKey": "mapkeyfromgoogle"
