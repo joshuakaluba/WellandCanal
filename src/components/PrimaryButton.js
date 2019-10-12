@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { StyleSheet } from 'react-native';
 import { Button } from 'react-native-elements';
+import Colors from "../constants/Colors";
 
 export default class PrimaryButton extends React.Component {
 
@@ -44,7 +45,7 @@ const styles = StyleSheet.create({
         margin: 30
     },
     buttonStyle: {
-        backgroundColor: '#000',
+        backgroundColor: Colors.black,
         height: 45,
         borderColor: 'transparent',
         marginTop: 5,
@@ -53,9 +54,9 @@ const styles = StyleSheet.create({
     },
     titleStyle: {
         fontWeight: '700',
-        color: '#000'
+        color: Colors.black
     },
     textStyle: {
-        color: '#fff'
+        color: Colors.white
     }
 });
