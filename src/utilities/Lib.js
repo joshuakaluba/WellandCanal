@@ -1,5 +1,7 @@
 import uuid from 'uuid';
 import moment from 'moment';
+import { AdMobInterstitial } from "expo-ads-admob";
+import AdmobIds from '../constants/AdmobIds';
 
 export default Lib = {
   showError(error) {
@@ -25,6 +27,19 @@ export default Lib = {
 
   getAvailability(status) {
     return status.toLowerCase() == "available" ? "available" : "unavailable";
+  },
+
+  async showInterstitial() {
+    try {
+      if (AdmobIds.showAds === true) {
+        AdMobInterstitial.setAdUnitID(AdmobIds.interstitial);
+        AdMobInterstitial.setTestDeviceID("EMULATOR");
+        await AdMobInterstitial.requestAdAsync();
+        await AdMobInterstitial.showAdAsync();
+      }
+    } catch (error) {
+      console.log(error);
+    }
   },
 
   replaceMonths(result) {
