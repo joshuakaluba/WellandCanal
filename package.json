@@ -27,7 +27,7 @@
     "react-native-modal": "^7.0.2",
     "react-native-vector-icons": "^6.1.0",
     "react-navigation": "^2.18.2",
-    "uuid": "3.3.3"
+    "uuid": "14.0.0"
   },
   "devDependencies": {
     "babel-preset-expo": "^7.0.0",
